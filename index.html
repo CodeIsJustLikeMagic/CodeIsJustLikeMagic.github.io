@@ -55,18 +55,28 @@
         <div class ="container mt-4 pt4">
             <h1 class="text-center">About Me</h1>
             <div class="row mt-4">
+                <div class="col-lg-1">
+                </div>
                 <div class="col-lg-4">
                     <img src="images/wasserfall_trimmed.jpg" class ="imageAboutPage" alt="">
                 </div>
-                <div class="col-lg-8">
-                    <p> Hi, I'm Janelle! I have a Bachelors degree in Computer Science and a Masters degree in Visual Computing and Games Technology. 
-                        I enjoy coding usefull tools and bringing video game worlds to life. 
-                        
-                        I love the freedom programming gives you to create programms.
-                        I combined my love of art with my talent for programming and logical thinking.
-                        
-                        
+                <div class="col-lg-6">
+                    <p> Hi, my name is Janelle Pfeifer, and I'm 24 years old. 
+                        I have a Bachelors degree in Computer Science and a Master’s degree in Visual Computing and Games Technology. 
+                        I enjoy developing useful tools and bringing video game worlds to life.
+                        <br>
+                        As early as my bachelor's degree, I decided to specialize in visual computing because I was 
+                        looking for something that would combine my creativity and love of art with my talent for computer science. 
+                        The visual medium brings me joy, and especially the creation of computer games is really fun. 
+                        With the eyes of a computer scientist, I like to look for an elegant way to implement whichever project I'm working on. 
+                        I have experience in the programming languages: Python, C#, C++, Java and most recently Lua, 
+                        which I learned for my Master's thesis.
+                        <br>
+                        With my studies finished, I am now looking to enter the world of game development.
+
                     </p>
+                </div>
+                <div class="col-lg-1">
                 </div>
             </div>
         </div>
@@ -78,7 +88,7 @@
         <div class ="container-fluid">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-                    <h2 class="projects_header">Projects</h2>
+                    <h2 class="projects_header">Project Portfolio</h2>
                 </div>
             </div>
         </div>
@@ -101,9 +111,9 @@
                         </ul>
                     </div>
                     <p> I am currently working on a teleportation system for Unity 3D and planing on publishing it as a unity package.
-                        I initially created the teleportation System for a game where particle effects (signifiying fire magic)
+                        I initially created the teleportation System for a game where particle effects (fire magic)
                         needed to be teleported through portals. My goal is to make the teleportation system flexible, robust and easy to use.
-                        Flexibility is needed to accommodate the needs of different game designs and I'm making my system easy to use with custom editor scripts.
+                        Flexibility is needed to accommodate the needs of different game designs, and I'm making my system easy to use with custom editor scripts.
                     </p>
                 </div>
             </div>
@@ -123,17 +133,16 @@
                             <li>Team-Project</li>
                         </ul>
                     </div>
-                    <p> Beatmania is a rhythm based 2D platformer with combat elements.
-                        I worked on this project in a group of three people. My main responsibilities were programming and 2D Art assets.
-
-                        
-                        Beatmania incorporates rhythm into a platformer movement system.
-                        To emphasise the importance of the rhythm the actions of npcs always coincide with the rhythm. 
-                        There are also animated plants in the background, swaying with the rhythm of the game. 
-                        I set up an Observer Pattern to inform every 'Vibing Entity' about a change in beat, 
-                        to synchronice every gampley element, that dependes on the musik.
-
-                        Beyond that I implemented many gameplay elements like npc behavior, moving platforms, a checkpiont system, item collection and a parallax background.
+                    <p> Beatmania is a rhythm based 2D platformer with combat elements. 
+                        I worked on this project in a group of three people. 
+                        My main responsibilities were programming and 2D Art assets. 
+                        To emphasize the importance of the rhythm, the actions of NPCs coincide with it. 
+                        Additionally, there are animated plants in the background, swaying with the rhythm of the game. 
+                        I set up an Observer Pattern to inform every 'Vibing Entity' about a change in beat. Each 'Vibing Entity' 
+                        then adjusts the speed and start of their animation loops, to suit the new rhythm. Leveraging Unity's 
+                        animation system allowed me to reduce the workload and improve the game's performance. 
+                        Beyond that I implemented various gameplay elements like NPC behavior, 
+                        moving platforms, a checkpoint system, item collection and a parallax background.
                     </p>
                     <button class="linkButton" onclick="window.location.href='https://github.com/CodeIsJustLikeMagic/BeatMania';">View on GitHub</button>
                     
@@ -153,7 +162,7 @@
                     <img src="images/Capture.PNG" class ="imageAboutPage" alt="">
                 </div>
                 <div class="col-lg-6">
-                    <h3>Shadow Mapping Shader</h3>
+                    <h3>Shadow Mapping</h3>
                     <div class ="row mt-3">
                         <ul class="project_bulletpoints">
                             <li>OpenGL</li>
@@ -162,9 +171,9 @@
                         </ul>
                     </div>
                     <p> As homework for a programming course, I implemented shadow mapping in OpenGL with C++.
-                        Two Shaders (DepthShaderLightSpaceTransform and DepthShaderDepthToTexture) render a DepthMap, from the light sources point of view.
-                        With this information two more Shaders (ShadowMappingVertex and ShadowMappingFragment) render the objects in the scene from the cameras point of view.
-                        The DepthMap is used to calcualte where the shadows should fall.
+                        Two Shaders (DepthShaderLightSpaceTransform and DepthShaderDepthToTexture) render a DepthMap, from the light source's point of view.
+                        With this information, two more Shaders (ShadowMappingVertex and ShadowMappingFragment) render the objects in the scene from the camera's point of view.
+                        The DepthMap is used to calculate where the shadows should fall.
                     </p>
                     <button class="linkButton" onclick="window.location.href='https://github.com/CodeIsJustLikeMagic/ShadowMapping';">View on GitHub</button>
 
@@ -188,8 +197,8 @@
                     </div>
                     <p> My Master thesis posed the question of how visual, auditory and haptic feedback could simulate the pain a virtual avatar 
                         would be feeling, without causing any real pain for the player. The goal is to enhance the game experience.
-                        I modified the first-person shooter Payday 2, to change its visual and auditory damage feedback. Beyond that I added haptic 
-                        feedback through a haptic vest with integrated vibration actuators as well as cold thermal feedback with Peltier elements.
+                        I modified the first-person shooter Payday 2, to change its visual and auditory damage feedback. Beyond that, I added haptic
+                        feedback through a haptic vest with integrated vibration actuators, as well as cold thermal feedback with Peltier devices.
                     </p>
                     <button class="linkButton" onclick="window.location.href='https://github.com/CodeIsJustLikeMagic/pain_simulation_payday_mod';">View on GitHub</button>
                 </div>
@@ -214,11 +223,11 @@
                     </div>
                     <div class ="col-lg-4 text-center">
                         <a href="https://github.com/CodeIsJustLikeMagic" target ="_blank"><i class="fab fa-github social-icons mt-4"></i></a>
-                        <p> Check out my GitHub</p>
+                        <p>Check out my GitHub</p>
                     </div>
                     <div class ="col-lg-4 text-center">
                         <a href="https://www.linkedin.com/in/janelle-pfeifer-939985266/" target ="_blank"><i class="fab fa-linkedin social-icons mt-4"></i></a>
-                        <p> Contact me on LinkedIn</p>
+                        <p>Find me on LinkedIn</p>
                     </div>
                 </div>
             </div>
