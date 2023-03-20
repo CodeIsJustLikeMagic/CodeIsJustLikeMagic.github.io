@@ -1,27 +1,13 @@
-.bgimage {
-    height:100vh;
-    background: url('images/background image.png');
-    background-size:cover;
-    position:relative;
-    
-}
-.projectsimage {
-    height:40vh;
-    background: url('images/gray bar.png');
-    position:relative;
-    background-size:cover;
-
-}
-
-.spaceImage{
-    height:10vh;
-}
 .navbar-brand{
     color:white;
 }
 
 .navbarScroll.navbarDark{
-    background-color:black;
+    background-color:#151d51;
+}
+
+.navbar-collapse {
+    display:flex;
 }
 
 .navbar-toggler{
@@ -32,15 +18,39 @@
     margin-top: 8px;
     margin-bottom: 8px;
     background-color: transparent;
-    background-image: none;
     border: 1px solid transparent;
 }
 
+
+/* for mobile phones and small width screens */
 .hero_title{
-    font-size:4.5rem;
+    font-size:2rem;
 }
 .hero_desc{
-    font-size:2rem;
+    font-size:1.5rem;
+}
+.navbar{
+    background-color: #151d51;
+}
+
+@media only screen and (min-width: 990px){
+    .hero_title{
+        font-size:4.5rem;
+    }
+    .hero_desc{
+        font-size:2rem;
+    }
+    .navbar{
+        background-color: transparent;
+    }
+}
+
+.bgimage {
+    height:100vh;
+    background: url('images/background image.png');
+    background-size:cover;
+    position:relative;
+
 }
 
 .hero-text{
@@ -50,6 +60,13 @@
     left:50%;
     transform: translate(-50%, -50%);
     color:white;
+}
+
+.projectsimage {
+    height:40vh;
+    background: url('images/gray bar.png');
+    position:relative;
+    background-size:cover;
 }
 
 .projects_header{
@@ -83,6 +100,10 @@
     border-radius : 22px;
 }
 
+.spaceImage{
+    height:10vh;
+}
+
 .project_bulletpoints{
     list-style: none;
 }
@@ -112,10 +133,21 @@ ul.project_bulletpoints li{
     color: #2d3da1;
 }
 
+
+/* for mobile phones and small width screens */
 .contactimage {
     height:60vh;
     background: url('images/gray bar.png');
     position:relative;
     background-size:cover;
 
+}
+
+@media only screen and (min-width: 990px){
+    .contactimage {
+        height:50vh;
+        background: url('images/gray bar.png');
+        position:relative;
+        background-size:cover;
+    }
 }

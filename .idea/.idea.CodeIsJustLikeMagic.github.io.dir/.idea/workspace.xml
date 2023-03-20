@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6cdb7df-ccf1-4dc8-bd5f-968339296cb3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CodeIsJustLikeMagic.github.io.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CodeIsJustLikeMagic.github.io.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +56,9 @@
       <workItem from="1679156229319" duration="9252000" />
       <workItem from="1679236446420" duration="17888000" />
       <workItem from="1679277671656" duration="36000" />
-      <workItem from="1679319731306" duration="8827000" />
+      <workItem from="1679319731306" duration="9411000" />
+      <workItem from="1679331256788" duration="45000" />
+      <workItem from="1679344659663" duration="3709000" />
     </task>
     <servers />
   </component>
