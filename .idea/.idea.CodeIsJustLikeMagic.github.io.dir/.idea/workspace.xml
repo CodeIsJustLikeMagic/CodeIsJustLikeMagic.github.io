@@ -5,66 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6cdb7df-ccf1-4dc8-bd5f-968339296cb3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/images/BeatMania Picture.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectarchive.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CodeIsJustLikeMagic.github.io.dir/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CodeIsJustLikeMagic.github.io.dir/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fontawesome-all.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/details-background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/details-icon-bootstrap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/details-icon-css.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/details-icon-html.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/details-icon-illustrator.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/details-icon-javascript.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/details-icon-photoshop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/down-arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/header-background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/project-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/project-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/project-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/project-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/project-details-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/project-details-small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/testimonial-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/testimonial-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/testimonial-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/up-arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/work-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/work-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/work-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/work-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/work-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/work-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CodeIsJustLikeMagic.github.io.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CodeIsJustLikeMagic.github.io.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.easing.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/privacy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/terms.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webfonts/fa-brands-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webfonts/fa-brands-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webfonts/fa-brands-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webfonts/fa-brands-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webfonts/fa-brands-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webfonts/fa-regular-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webfonts/fa-regular-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webfonts/fa-regular-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webfonts/fa-regular-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webfonts/fa-regular-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webfonts/fa-solid-900.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webfonts/fa-solid-900.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webfonts/fa-solid-900.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webfonts/fa-solid-900.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webfonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +55,9 @@
       <updated>1678983288603</updated>
       <workItem from="1678983293645" duration="11670000" />
       <workItem from="1679156229319" duration="9252000" />
-      <workItem from="1679236446420" duration="9155000" />
+      <workItem from="1679236446420" duration="17888000" />
+      <workItem from="1679277671656" duration="36000" />
+      <workItem from="1679319731306" duration="963000" />
     </task>
     <servers />
   </component>
