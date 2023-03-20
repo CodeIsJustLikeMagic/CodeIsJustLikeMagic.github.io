@@ -49,6 +49,9 @@
     font-size: 3rem;
 }
 
+#about{
+    scroll-margin-top:300px;
+}
 .imageAboutPage{
     width:100%;
 }
@@ -80,7 +83,26 @@ ul.project_bulletpoints li{
     font-size:36px;
     cursor:pointer;
 }
-#footer{
-    text-align: center;
-    height: 7vh;
+
+.tired-of-this-shit{
+    text-aligh:center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fa-envelope:hover,.fa-linkedin:hover,.fa-twitter:hover,.fa-github:hover, .fa-twitch:hover {
+    color: #2196f3;
+}
+.fab, .fa {
+    color: #2d3da1;
+}
+
+.contactimage {
+    height:60vh;
+    background: url('images/gray bar.png');
+    position:relative;
+    background-size:cover;
+
 }
